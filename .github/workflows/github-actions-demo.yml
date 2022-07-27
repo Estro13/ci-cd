@@ -18,6 +18,4 @@ jobs:
           run: npm run build
         - name: e2e test
           run: npm run test:e2e
-        - name: eslint test
-          run: npm run lint
 
